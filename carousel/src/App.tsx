@@ -1,5 +1,14 @@
+import Carousel, { CarouselItem } from "./components/carousel";
+
 function App() {
-  return <div className="App">Caurosel comming soon</div>;
+  return (
+    <Carousel>
+      <CarouselItem>First Item</CarouselItem>
+      <CarouselItem>Second Item</CarouselItem>
+      <CarouselItem>Third Item</CarouselItem>
+      <CarouselItem>.....</CarouselItem>
+    </Carousel>
+  );
 }
 
 export default App;
